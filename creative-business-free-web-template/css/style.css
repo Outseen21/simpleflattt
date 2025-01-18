@@ -99,7 +99,7 @@ p {
     padding: 20px 0px;
 }
 #hero_section .btn-primary {
-    margin-top: 20px; /* Dodatkowy margines w tej sekcji */
+    margin-top: 20px; 
 }
 
 .header_box {
@@ -438,7 +438,7 @@ a.read_more2:hover {
     background: #f9f9f9;
 }
 .service_wrapper {
-    padding: 40px 0 40px;
+    padding: 40px 0;
 }
 .service_wrapper .row {
     margin-bottom: 40px;
@@ -688,7 +688,7 @@ a.contact_btn:hover {
   button.prev:disabled,
   button.next:disabled {
     opacity: 0.5;
-    cursor: not-allowed; /* Zablokuj przycisk wizualnie */
+    cursor: not-allowed; 
   }
   
   button.prev,
@@ -746,27 +746,27 @@ a.contact_btn:hover {
 
 .portfolio-item {
     position: relative;
-    overflow: hidden; /* Ukrycie nadmiaru treści */
+    overflow: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 300px; /* Ogranicz szerokość każdego elementu portfolio */
-    max-height: 300px; /* Ogranicz wysokość każdego elementu portfolio */
-    margin: 20px auto; /* Wyśrodkowanie elementów */
-    border-radius: 10px; /* Zaokrąglenie rogów */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Dodanie cienia */
-    background-color: #f8f8f8; /* Tło na wypadek, gdyby obraz się nie załadował */
+    max-width: 300px; 
+    max-height: 300px;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    background-color: #f8f8f8; 
   }
   
   .portfolio-item img {
-    width: 300px; /* Stała szerokość dla wszystkich obrazów */
-  height: 200px; /* Stała wysokość dla wszystkich obrazów */
-  object-fit: cover; /* Ustawia, że obraz zostanie dopasowany do ramki */
-  border-radius: 8px; /* Zaokrąglone rogi */
-    transition: transform 0.3s ease; /* Animacja przy najechaniu */
+    width: 300px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+    transition: transform 0.3s ease;
   }
   .portfolio-item:hover img {
-    transform: scale(1.1); /* Powiększenie obrazu przy najechaniu */
+    transform: scale(1.1); 
   }
   
 .portfolio-item:hover {
@@ -784,19 +784,19 @@ a.contact_btn:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Ciemne półprzezroczyste tło */
-    color: #ffffff; /* Kolor tekstu biały */
+    background: rgba(0, 0, 0, 0.6); 
+    color: #ffffff; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1; /* Ustaw na 1, aby było widoczne */
+    opacity: 1; 
     transition: opacity 0.3s ease-in-out;
-    border-radius: 8px; /* Zaokrąglone rogi, jak obraz */
+    border-radius: 8px;
   }
   
   .portfolio-item:hover .overlay {
-    opacity: 1; /* Utrzymuje widoczność podczas najechania */
+    opacity: 1; 
   }
   
   .overlay h3 {
@@ -830,35 +830,35 @@ a.contact_btn:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Ciemne półprzezroczyste tło */
-    color: #ffffff; /* Biały kolor tekstu */
+    background: rgba(0, 0, 0, 0.7); 
+    color: #ffffff; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1; /* Widoczność overlay */
+    opacity: 1; 
     transition: opacity 0.3s ease-in-out;
-    border-radius: 8px; /* Zaokrąglone rogi */
+    border-radius: 8px; 
     z-index: 10;
 }
 
 .portfolio-item:hover .overlay {
-    opacity: 1; /* Overlay widoczny przy najechaniu */
+    opacity: 1; 
 }
 
 .overlay h3 {
-    font-size: 18px; /* Rozmiar nagłówka */
+    font-size: 18px; 
     font-weight: bold;
     margin: 10px 0;
     text-align: center;
-    color: #ffffff; /* Biały kolor tekstu */
+    color: #ffffff; 
 }
 
 .overlay p {
-    font-size: 14px; /* Rozmiar akapitu */
+    font-size: 14px;
     margin: 10px 0;
     text-align: center;
-    color: #ffffff; /* Biały kolor tekstu */
+    color: #ffffff; 
 }
 
 .overlay .btn-view {
@@ -1094,14 +1094,14 @@ img {
     background-color: #003a68;
     transform: scale(1.05);
 }
-  /* Efekty Hover dla Avatara */
+ 
   .member-avatar:hover {
     transform: scale(1.1);
     transition: 0.3s ease;
   }
   #aboutUs {
     padding: 60px 0;
-    text-align: center; /* Wyrównanie tekstu */
+    text-align: center; 
 }
 .img-circle {
 border-radius: 0%;
@@ -1548,7 +1548,7 @@ transition: all .25s ease;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Ciemne tło z przezroczystością */
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     opacity: 0;
     display: flex;
@@ -1560,16 +1560,16 @@ transition: all .25s ease;
   }
   
   .portfolio-item:hover .overlay {
-    opacity: 1; /* Pokaż overlay przy najechaniu */
+    opacity: 1; 
   }
   .team .name {
-    color: #000000; /* Ustawia czarny kolor dla imion */
-    font-weight: bold; /* Opcjonalnie, jeśli chcesz je wyróżnić */
-    font-size: 18px; /* Opcjonalnie, aby dostosować wielkość tekstu */
+    color: #000000; 
+    font-weight: bold;
+    font-size: 18px; 
 }
 .ofe {
-    color: #007bff; /* Kolor niebieski */
-    font-weight: bold; /* Opcjonalnie: pogrubienie */
+    color: #007bff; 
+    font-weight: bold;
 }
 
   .portfolio-item .overlay h3 {
