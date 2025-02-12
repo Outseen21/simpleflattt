@@ -125,7 +125,7 @@
       };
     
       // Przycisk „Poznaj naszą kolekcję” przewija do „Services”
-      scrollToSection('.btn-primary[href="#services"]', '#services');
+      scrollToSection('.btn-primary[href="#portfolio"]', '#portfolio');
     
       // Przycisk „Skontaktuj się z nami” przewija do „Kontakt”
       scrollToSection('.btn-primary[href="#contact"]', '#contact');
